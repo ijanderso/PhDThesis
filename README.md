@@ -7,8 +7,8 @@ _NOTE: This may not be used without permission of the author._
 
 Files Included:
 * `thesisbase.tex` - The base TeX file for the thesis, compile to get full product
-* `front.tex` - Front matter (title page, abstract, acknowledgments, table of contents/figures/tables)
-* `introduction.tex` - Introduction 
+* `FrontMatter` - Front matter (title page, abstract, acknowledgments, table of contents/figures/tables)
+* `Introduction` - Introduction 
 * `cv.tex` - Curriculum Vitae
 
 

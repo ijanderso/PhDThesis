@@ -2,26 +2,43 @@
 \label{sec:intro}
 \chaptermark{Introduction}
 
-\section{Theoretical Motivation}
-\label{sec:section}
-
-% tabular environments are set to be single-spaced in the  thesis class,  but long tables do not use tabular
-% to get around this, set the spacing to single spacing at the start of the long table environment, and set it back to double-spacing at the end of it
-\/*
-\begin{table}[bt]
 \begin{center}
-\begin{tabular}{cc}
-\hline
-A & B \\
-\hline
-a1 & b1 \\
-a2 & b2 \\
-a3 & b3 \\
-a4 & b4 \\
-\hline
-\end{tabular}
+\begin{footnotesize}
+{ \it{``It has long been an axiom of mine that the little things are infinitely the most important."}}\\
+``The Memoirs of Sherlock Holmes", Arthur Conan Doyle\\
+\end{footnotesize}
 \end{center}
-\caption{This is a caption.}
-\label{tab:pfams}
-\end{table}
-*/
+
+\section{Theoretical Motivation}
+\label{sec:Introduction}
+
+Needless to say, in some sense, a discovery seemed inevitable. Near Geneva, beneath the foot of the Jura Mountains, the Large Hadron Collider (LHC) has been accelerating protons at higher energies than any collider prior, continuing the fruitful lineage of technological advancement and scientific discovery from earlier particle accelerators. On July 4, 2012, in a joint announcement from CMS and ATLAS, the organizations of the two respective general purpose detectors at the LHC, it was announced that a Higgs-like boson\footnote{Although it is now considered ``a Higgs boson", contemporarily it was deemed ``a Higgs-like boson" until further study could be done.} was observed which opened a new window to probe the foundations of the universe. The genesis of this announcement can be traced to ancient Greece and India with the origins of atomism - the postulate that there exist fundamental, unbreakable constituents that make up all matter - through the discovery of quantum mechanics to today. The Standard Model (SM) is the current answer proffered by particle physicists for the underpinnings of matter in our universe. This discovery appears to be the observation of the last remaining piece of this model.
+
+Conceived in the 1970s, the SM has been one of the most successful scientific models\footnote{The only possible usurper is special relativity which underlies some of the mathematics of the SM.} ever. Precision tests have repeatedly agreed with SM predictions and fundamental particles which were not yet observed at the time of conception have since been discovered. The Standard Model's particles and their interactions, along with how they act in the aggregate, can explain nearly all phenomena across any size or time frame in our universe. But, as we will see in Sec.~\ref{sec:SMpreLHC}, there still remain large unanswered questions which we may hope to probe by looking in detail at this new boson.
+
+\subsection{Our Cast of Characters: Fundamental Particles}
+\label{sec:FundParticles}
+
+Broadly, the Standard Model consists of a series of point particles with only a few basic characteristics: spin, charge, and mass.
+
+Spin can be thought of as the intrinsic angular momentum of a particle. It can only take integer or half-integer values, which is used to classify particles into two categories: Bosons have integer spin while Fermions have half-integer spin. This classification isn't arbitrary; the spin determines the general role of that particle. Fermions obey Fermi-Dirac statistics and therefore cannot occupy identical energy states. These are the building blocks of all the observed material in the universe. Bosons instead obey Bose-Einstein statistics -- they are permitted to occupy identical energy states -- and make up the force carriers. If fermions are the pieces, bosons are the glue that binds them.
+
+The particles can interact through any of the four observed forces: Electromagnetism, the Weak and Strong forces, and Gravity. Gravity is a bit problematic and not integrated into the Standard Model (see Sec.~\ref{sec:SMpreLHC}), but the other three forces are. We can further differentiate the fermions based on what forces they interact with. Fermions that interact with the strong force are called quarks, whereas leptons do not. How strongly these fermions interact with a given force is quantified in the concept of charge. Traditionally, when we use the term "charged" in reference to a particle, it refers to whether it interacts with electromagnetism. There are three charged leptons: the electron has unit negative charge as do its two heavier cousins, the mu and the tau. There are also three uncharged leptons called neutrinos: the electron neutrino, the mu neutrino, and the tau neutrino. All quarks are charged; the up, charm, and top quarks (up-type) have charge of +2/3 while the down, strange, and bottom quarks (down-type) have charge -1/3. The force carrier of electromagnetism is a massless, uncharged boson called the photon. These properties allow photons to travel infinitely, such that particles can interact electromagnetically over very long distances.
+
+The weak and strong forces interact at much smaller distances, like inside nuclei of different atoms. For the strong force, the analogy of electromagnetic charge isn't simply positive or negative. Instead, particles can have color charge, which can be red, blue, or green. Quarks are the only colored fermions and the gluon is the strong force carrier. Gluons are massless, but contrary to the photon, gluons are colored so they will interact with other gluons. As a result, the strong force exhibits a property called confinement, where colored combinations of particles are unstable so quarks or gluons cannot be directly observed (see Sec.~\ref{sec:hadronization}) and thus the strong force doesn't interact over long distances. Instead, quarks tend to come in groups of two (mesons) or three (baryons)\footnote{There are some experimental results involving tetra- and pentaquarks, but they are very rare and fall well outside of the scope of this thesis.}.
+
+If we look at these fermions, we see groups of three: three charged leptons, three uncharged leptons, three up-type and three down-type quarks. Can a fermion change from one group to another? What about to another fermion in the same group? Through the weak force, quarks can change from up-type to down-type (and vice-versa), i.e. the charm quark can decay into the down quark or the strange quark. Further, charged leptons can move from one to another, so the muon can decay into the electron. The force carrier for this decay is the W boson, which can be either positive or negatively charged. Also associated with the weak force is the Z boson, which is not charged but can still transfer momentum. But if the strong force is distance limited by confinement, why does the weak force only act over short distances? If we look at the mathematics of the weak force, it is identical to electromagnetism. So why doesn't it act like electromagnetism?
+
+Finally, we come to mass. The reason that the charged leptons or up-type quarks aren't fully interchangeable is because they vary drastically in their mass. This has demonstrable impact on how a particle will act, as particles with higher mass will decay to those allowed which have lower mass. A muon is roughly 200 times more massive than the electron, so a muon will quickly decay to an electron. Similarly, the mass of the top quark is much heavier than any other quark, so it has a very, very short lifetime. The weak force therefore acts differently than electromagnetism because the photon is massless while the W and Z bosons are massive; the W and Z will quickly decay, usually to a pair of fermions. As a result, the first generation of fermions -- those with lowest mass: the electron, the electron neutrino, the up quark, and the down quark -- are the most stable. With just these three particles, we can make basic protons (two ups and a down) and neutrons (two downs and an up) which can be combined with the electron to form all of the atoms in the periodic table.
+
+There is one more complication in the Standard Model. All of the particles listed so far make up matter. In addition, there are antiparticles which have the same mass, but the opposite properties. The anti-electron is called the positron as it is positive. Anti-quarks have the same name but with a bar on top, so $\bar{u}$ is the anti-$u$. Further, anti-quarks can have color of anti-red, anti-green, and anti-blue. Mesons, for example, are a quark and anti-quark pair which add up to a colorless state. As the name implies, when antimatter and matter come in contact with each other, they annihilate, converting into force carriers which can then transform into other particles. As a corollary, force carriers can split into matter and antimatter. So a proton is not just two up quarks and a down quark, but it also the interacting gluons and a sea of temporary quark-antiquark pairs, popping in and out of existence.
+
+But why do the W and Z bosons have mass? For that matter, if the top and up have otherwise identical properties, why is the top's mass over 75,000 times greater than the up? If matter and antimatter annihilate when they collide, why must there have been more matter than antimatter? And what about gravity? These are the deeper questions of the Standard Model. Fortunately, there are possible answers that, if correct, would leave signatures we could find in particle accelerators.
+
+\subsection{The Story: The Status of the Standard Model Before the LHC}
+\label{sec:SMpreLHC}
+
+From a mathematical perspective, the Standard Model is built off of symmetries. 
+
+\section{Summary}
+\label{sec:intro_summary}

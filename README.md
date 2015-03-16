@@ -1,7 +1,7 @@
 Thesis
 =========
 
-This is the repository for the PhD Thesis of Ian Anderson, “A Tail of Two Bosons”, based off of the JHU Thesis template found on [github](https://github.com/weitzner/jhu-thesis-template).
+This is the repository for the PhD Thesis of Ian Anderson, “A Tail of Two Vertices”, based off of the JHU Thesis template found on [github](https://github.com/weitzner/jhu-thesis-template).
 
 _NOTE: This may not be used without permission of the author._
 
@@ -11,7 +11,8 @@ Files/Folders Included:
 * `Introduction` - Introduction dealing with Theoretical Motivation, Status of SM pre-LHC
 * `Experiment` - Experimental Setup, dealing with LHC/CMS
 * `Phenomenology` - Phenomenology behind Higgs measurements at the LHC
-* `Results` - Results of analyses
+* `HiggsDiscovery` - Discovery of Higgs in ZZ->4l channel
+* `HiggsProperties` - Measurement of properties in ZZ->4l channel
 * `Conclusions` - Conclusions
 * `cv.tex` - Curriculum Vitae
 

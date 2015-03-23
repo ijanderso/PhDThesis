@@ -20,7 +20,12 @@
 \usepackage{longtable}
 %\usepackage[hypertex]{hyperref}
 \usepackage{multirow}
-
+% Feynman Diagrams
+\usepackage{feynmp}
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsRule{*}{mps}{*}{}
+\usepackage{subfig} % Allows figures next to each other
+\usepackage{verbatim} % Allows multiline comments
 \usepackage{currvita}
 
 \usepackage{fancyhdr}    % Use nice looking headers along with the required footer page numbers   
@@ -57,7 +62,7 @@ A TALE OF TWO VERTICES: \\
 Production and Decay of the HVV Vertex at the LHC
 }
 \author{Ian J. Anderson}
-\degreemonth{}
+\degreemonth{May}
 \degreeyear{2015} 
 \dissertation
 \doctorphilosophy
@@ -69,7 +74,8 @@ Production and Decay of the HVV Vertex at the LHC
 \include{Introduction/introduction}
 \include{Experiment/experiment}
 \include{Phenomenology/pheno}
-\include{Results/results}
+\include{HiggsDiscovery/discovery}
+\include{HiggsProperties/properties}
 \include{Conclusions/conclusions}
 
 %\include{appendix}

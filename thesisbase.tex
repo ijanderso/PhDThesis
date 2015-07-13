@@ -30,15 +30,21 @@
 \usepackage{adjustbox}
 \usepackage{rotating}
 \usepackage{pdflscape}
+\usepackage{tikz,pgfplots}
+\usepackage{float}
 
 \usepackage{fancyhdr}    % Use nice looking headers along with the required footer page numbers   
 %\usepackage[hypertex]{hyperref}
 
-\usepackage{color,hyperref}
-\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
-\hypersetup{colorlinks,breaklinks,
-            linkcolor=darkblue,urlcolor=darkblue,
-            anchorcolor=darkblue,citecolor=darkblue}
+\usepackage{color}%,hyperref}
+%\definecolor{darkblue}{rgb}{0.0,0.0,0.3}
+%\hypersetup{colorlinks,breaklinks,
+%            linkcolor=darkblue,urlcolor=darkblue,
+ %           anchorcolor=darkblue,citecolor=darkblue}
+
+\usepackage{newcent}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
 
 %Define the header/footer style
 \pagestyle{fancy}
@@ -57,7 +63,7 @@
 
 \long\def\/*#1*/{}
 
-\renewcommand{\rmdefault}{iwona}
+%\renewcommand{\rmdefault}{iwona}
 \newcommand{\Lagr}{\mathcal{L}}
 \newcommand{\NA}{\text{---}}
 
@@ -69,7 +75,7 @@
 \begin{Large}
 A TALE OF TWO VERTICES: \\
 \end{Large}
-Production and Decay of the HVV Vertex at the LHC
+Production and Decay of the Higgs VV Vertex at the LHC
 }
 \author{Ian J. Anderson}
 \degreemonth{May}

@@ -1,7 +1,7 @@
 Thesis
 =========
 
-This is the repository for the PhD Thesis of Ian Anderson, “A Tail of Two Vertices”, based off of the JHU Thesis template found on [github](https://github.com/weitzner/jhu-thesis-template).
+This is the repository for the PhD Thesis of Ian Anderson, “A Tale of Two Vertices: Production and Decay of the Higgs VV Vertex at the LHC”, based off of the JHU Thesis template found on [github](https://github.com/weitzner/jhu-thesis-template).
 
 _NOTE: This may not be used without permission of the author._
 
